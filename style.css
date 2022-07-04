@@ -15,6 +15,7 @@ h1{
 
 section{
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width{
   width: 50%;
@@ -36,4 +37,30 @@ font-weight: 700;
   background-image: url(developer-portfolio-master/images/top-banner.png);
   background-repeat: no-repeat;
 
+}
+.description2{
+  color: rgb(115, 115, 115);
+  font-size: 15px;
+}
+.link-button-2{
+  text-decoration: none;
+background-image: linear-gradient(orange, tomato);
+padding: 9px 35px;
+color: white;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 700;
+}
+.half-width-2{
+  width: 75%;
+  padding-left: 8%;
+}
+.half-width-2 img{
+  width: 90%;
+}
+.dream-big{
+  background-image: url(developer-portfolio-master/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+ 
 }
