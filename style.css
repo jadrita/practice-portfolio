@@ -13,7 +13,7 @@ h1{
   font-size: 15px;
 }
 
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 100px;
 }
@@ -63,4 +63,28 @@ font-weight: 700;
   background-repeat: no-repeat;
   background-position: right;
  
+}
+.experience-item{
+  box-shadow: 10px 10px 5px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+
+}
+.experience-area{
+  background-image: url(developer-portfolio-master/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+#full-stack-developer{
+border-left: 7px solid tomato;
+}
+#baby-developer{
+border-left: 7px solid blue;
+}
+footer{
+  text-align: center;
 }
